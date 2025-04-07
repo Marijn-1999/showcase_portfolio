@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,16 +11,9 @@ export default function Home() {
       </div>
       <div className="horizontal-line"></div>
       <div className="bento-grid">
-        <Link href="/project1">
-          <div className="bento-box box1">
-            <Image
-              src="/QL.png"
-              alt="Packaging Flat"
-              width={500}
-              height={500}
-            />
-          </div>
-        </Link>
+        <div className="bento-box box1">
+          <Image src="/QL.png" alt="Packaging Flat" width={500} height={500} />
+        </div>
         <div className="bento-box box2">
           <Image
             src="/images/box2.png"
@@ -71,30 +63,6 @@ export default function Home() {
           />
         </div>
       </div>
-      {/* About Me Section */}
-      <section className="about-me">
-        <div className="about-me-container">
-          <div className="about-me-image">
-            <Image
-              src="/globe.svg" // Replace with your image path
-              alt="Marijn Meeuwesen"
-              width={300}
-              height={300}
-              className="rounded-full" // You can adjust the size and style here
-            />
-          </div>
-          <div className="about-me-text">
-            <h2>About Me</h2>
-            <p>
-              Hello, I'm Marijn Meeuwesen, a passionate UX Designer with a love
-              for creating intuitive and engaging digital experiences. I
-              specialize in user research, interface design, and creating
-              seamless user flows. I believe in combining creativity with
-              usability to design products that people love to use.
-            </p>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }

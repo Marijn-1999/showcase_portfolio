@@ -131,3 +131,48 @@ body {
 .box7 {
   grid-column: span 2;
 }
+
+/* About Me Section */
+.about-me {
+  margin-top: 40px;
+  padding: 80px 20px;
+  background-color: #f4f4f4;
+  /* Change background color as needed */
+  border-top: 1px solid #171717;
+}
+
+/* Container for about-me content */
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* Aligns content to the left */
+  gap: 30px;
+  /* Adjusts space between image and text */
+}
+
+/* About Me Image */
+.about-me-image {
+  flex: 1;
+  /* You can set a max width for the image if needed */
+}
+
+/* About Me Text */
+.about-me-text {
+  flex: 2;
+}
+
+/* Title of the About Me Section */
+.about-me-text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #171717;
+}
+
+/* Text content */
+.about-me-text p {
+  font-size: 1.2rem;
+  color: #171717;
+  line-height: 1.6;
+}

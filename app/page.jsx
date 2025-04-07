@@ -48,7 +48,7 @@ export default function Home() {
         </div>
         <div className="bento-box box6">
           <Image
-            src="/images/box6.png"
+            src="/byron.png"
             alt="Coffee Packaging"
             width={500}
             height={500}
@@ -63,6 +63,30 @@ export default function Home() {
           />
         </div>
       </div>
+      {/* About Me Section */}
+      <section className="about-me">
+        <div className="about-me-container">
+          <div className="about-me-image">
+            <Image
+              src="/globe.svg" // Replace with your image path
+              alt="Marijn Meeuwesen"
+              width={300}
+              height={300}
+              className="rounded-full" // You can adjust the size and style here
+            />
+          </div>
+          <div className="about-me-text">
+            <h2>About Me</h2>
+            <p>
+              Hello, I'm Marijn Meeuwesen, a passionate UX Designer with a love
+              for creating intuitive and engaging digital experiences. I
+              specialize in user research, interface design, and creating
+              seamless user flows. I believe in combining creativity with
+              usability to design products that people love to use.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

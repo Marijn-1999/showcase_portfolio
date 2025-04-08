@@ -103,6 +103,23 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.bento-box {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bento-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
 
 /* Custom sizing per box */
 .box1 {
@@ -181,4 +198,9 @@ body {
 .full-box {
   grid-column: span 12;
   height: 200%;
+}
+
+.name-title-container:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

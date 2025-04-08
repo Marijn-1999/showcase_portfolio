@@ -12,15 +12,15 @@ export default function Home() {
       </div>
       <div className="horizontal-line"></div>
       <div className="bento-grid">
-        <Link href="/project1">
-          <div className="bento-box box1">
+        <Link href="/project1" passHref legacyBehavior>
+          <a className="bento-box box1" style={{ display: "block" }}>
             <Image
               src="/QL.png"
               alt="Packaging Flat"
               width={500}
               height={500}
             />
-          </div>
+          </a>
         </Link>
         <div className="bento-box box2">
           <Image
@@ -46,10 +46,10 @@ export default function Home() {
             height={500}
           />
         </div>
-        <div className="bento-box box5">
+        <div className="bento-box box7">
           <Image
-            src="/enorm.png"
-            alt="Exhibition Stand"
+            src="/images/box7.png"
+            alt="Truck Branding"
             width={500}
             height={500}
           />
@@ -62,10 +62,10 @@ export default function Home() {
             height={500}
           />
         </div>
-        <div className="bento-box box7">
+        <div className="bento-box box5">
           <Image
-            src="/images/box7.png"
-            alt="Truck Branding"
+            src="/enorm.png"
+            alt="Exhibition Stand"
             width={500}
             height={500}
           />

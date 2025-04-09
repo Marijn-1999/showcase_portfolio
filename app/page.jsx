@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="bento-container">
+    <main className="bento-container homepage">
       <div className="name-title-container">
-        <h1 className="name">Marijn Meeuwesen</h1>{" "}
-        {/* Replace with your name */}
+        <h1 className="name">Marijn Meeuwesen</h1>
         <span className="title">UX Designer</span>
         <span className="portfolio">Showcase portfolio</span>
       </div>
       <div className="horizontal-line"></div>
+
       <div className="bento-grid">
         <Link href="/project1" passHref legacyBehavior>
           <a className="bento-box box1" style={{ display: "block" }}>
@@ -24,7 +24,7 @@ export default function Home() {
         </Link>
         <div className="bento-box box2">
           <Image
-            src="/images/box2.png"
+            src="/logoknmi.png"
             alt="Stationery"
             width={500}
             height={500}
@@ -71,16 +71,17 @@ export default function Home() {
           />
         </div>
       </div>
+
       {/* About Me Section */}
       <section className="about-me">
         <div className="about-me-container">
           <div className="about-me-image">
             <Image
-              src="/globe.svg" // Replace with your image path
+              src="/globe.svg"
               alt="Marijn Meeuwesen"
               width={300}
               height={300}
-              className="rounded-full" // You can adjust the size and style here
+              className="rounded-full"
             />
           </div>
           <div className="about-me-text">

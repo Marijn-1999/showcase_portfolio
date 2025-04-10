@@ -6,7 +6,7 @@ export default function Home() {
     <main className="bento-container homepage">
       <div className="name-title-container">
         <h1 className="name">Marijn Meeuwesen</h1>
-        <span className="title">UX Designer</span>
+        <span className="title">Game design</span>
         <span className="portfolio">Showcase portfolio</span>
       </div>
       <div className="horizontal-line"></div>
@@ -14,61 +14,88 @@ export default function Home() {
       <div className="bento-grid">
         <Link href="/project1" passHref legacyBehavior>
           <a className="bento-box box1" style={{ display: "block" }}>
+            <div className="image-wrapper">
+              <Image
+                src="/project1.png"
+                alt="Packaging Flat"
+                width={500}
+                height={500}
+              />
+              <div className="project-label">Project 1</div>
+            </div>
+          </a>
+        </Link>
+
+        <div className="bento-box box2">
+          <div className="image-wrapper">
             <Image
-              src="/QL.png"
-              alt="Packaging Flat"
+              src="/project2.png"
+              alt="Stationery"
               width={500}
               height={500}
             />
-          </a>
-        </Link>
-        <div className="bento-box box2">
-          <Image
-            src="/logoknmi.png"
-            alt="Stationery"
-            width={500}
-            height={500}
-          />
+            <div className="project-label">Project 2</div>
+          </div>
         </div>
+
         <div className="bento-box box3">
-          <Image
-            src="/pacemaker.png"
-            alt="Coffee Flat Lay"
-            width={500}
-            height={500}
-          />
+          <div className="image-wrapper">
+            <Image
+              src="/project6.png"
+              alt="Coffee Flat Lay"
+              width={500}
+              height={500}
+            />
+            <div className="project-label">Project 3</div>
+          </div>
         </div>
+
         <div className="bento-box box4">
-          <Image
-            src="/images/box4.png"
-            alt="AOS Logo"
-            width={500}
-            height={500}
-          />
+          <div className="image-wrapper">
+            <Image
+              src="/project3.png"
+              alt="AOS Logo"
+              width={500}
+              height={500}
+            />
+            <div className="project-label">Project 4</div>
+          </div>
         </div>
+
         <div className="bento-box box7">
-          <Image
-            src="/images/box7.png"
-            alt="Truck Branding"
-            width={500}
-            height={500}
-          />
+          <div className="image-wrapper">
+            <Image
+              src="/project7.png"
+              alt="Truck Branding"
+              width={500}
+              height={500}
+            />
+            <div className="project-label">Project 5</div>
+          </div>
         </div>
+
         <div className="bento-box box6">
-          <Image
-            src="/byron.png"
-            alt="Coffee Packaging"
-            width={500}
-            height={500}
-          />
+          <div className="image-wrapper">
+            <Image
+              src="/project4.png"
+              alt="Coffee Packaging"
+              width={500}
+              height={500}
+            />
+            <div className="project-label">Project 6</div>
+          </div>
         </div>
+
         <div className="bento-box box5">
-          <Image
-            src="/enorm.png"
-            alt="Exhibition Stand"
-            width={500}
-            height={500}
-          />
+          <div className="image-wrapper">
+            <Image
+              src="/project5.png"
+              alt="Exhibition Stand"
+              width={500}
+              height={500}
+            />
+            <div className="project-label">Project 7</div>
+          </div>
         </div>
       </div>
 

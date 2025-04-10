@@ -265,7 +265,6 @@ body {
   background-color: #fff;
   border-top: 1px solid #f1f1f1;
   border-radius: 0 0 20px 20px;
-  /* Rounded bottom corners */
 }
 
 .project-description h2 {
@@ -299,3 +298,4 @@ body {
   box-shadow: none;
   /* Disable hover shadow effect */
 }
+

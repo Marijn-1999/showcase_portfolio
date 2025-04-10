@@ -1,7 +1,29 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  const [fadeProjects, setFadeProjects] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutMeSection = document.querySelector(".about-me");
+      if (aboutMeSection) {
+        const aboutTop = aboutMeSection.getBoundingClientRect().top;
+        const triggerPoint = window.innerHeight * 0.6;
+
+        setFadeProjects(aboutTop < triggerPoint);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // initial check
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <main className="bento-container homepage">
       <div className="name-title-container">
@@ -11,7 +33,7 @@ export default function Home() {
       </div>
       <div className="horizontal-line"></div>
 
-      <div className="bento-grid">
+      <div className={`bento-grid ${fadeProjects ? "fade-out" : ""}`}>
         <Link href="/project1" passHref legacyBehavior>
           <a className="bento-box box1" style={{ display: "block" }}>
             <div className="image-wrapper">
@@ -21,7 +43,7 @@ export default function Home() {
                 width={500}
                 height={500}
               />
-              <div className="project-label">Project 1</div>
+              <div className="project-label">Project 1 - Echoes of Aether</div>
             </div>
           </a>
         </Link>

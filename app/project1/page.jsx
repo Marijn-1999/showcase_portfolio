@@ -12,34 +12,62 @@ export default function Project1() {
         >
           Terug
         </Link>
-        <span className="portfolio">Project 1</span>
+        <span className="portfolio">Project 1 - Echoes of Aether</span>
       </div>
       <div className="horizontal-line"></div>
 
-      {/* Full-width bento with image + text */}
+      {/* Full-width single bento box */}
       <div className="bento-grid">
-        <div className="bento-box full-box project-content">
-          <div className="project-image">
+        <div className="bento-box full-box">
+          {/* Image Section */}
+          <div className="image-wrapper">
             <Image
-              src="/project1.png" // Replace with your project image
-              alt="Project Example"
-              width={800}
-              height={600}
-              style={{ width: "100%", height: "auto", borderRadius: "16px" }}
+              src="/project1.png" // Put your image path here
+              alt="Full Project Image"
+              width={1200} // Adjust the width of the image
+              height={675} // Adjust the height to keep the aspect ratio
+              className="project-image" // Apply custom class for styling
             />
           </div>
-          <div className="project-text">
-            <h2>Project Overview</h2>
+
+          {/* Text Section */}
+          <div className="project-description">
+            <h2>Echoes of Aether</h2>
             <p>
-              This project focused on streamlining the onboarding experience for
-              a digital product used by healthcare professionals. The primary
-              goal was to reduce the time it took for users to reach their
-              "aha!" moment and improve the task completion rate.
+              <strong>Echoes of Aether</strong> is an action-adventure RPG set
+              in a post-apocalyptic world where ancient ruins and mystical
+              forces collide. Players explore vast landscapes, battle corrupted
+              creatures, and uncover ancient secrets to prevent the world’s
+              collapse.
             </p>
             <p>
-              We conducted several usability tests and iterated on feedback to
-              refine the UI and improve accessibility. The final outcome was a
-              28% increase in user retention in the first month.
+              <strong>Role:</strong> Game Designer
+            </p>
+            <p>
+              <strong>Responsibilities:</strong>
+            </p>
+            <ul>
+              <li>
+                Designed core gameplay mechanics, including exploration, combat,
+                and puzzles.
+              </li>
+              <li>
+                Developed character progression systems and narrative choices.
+              </li>
+              <li>
+                Collaborated with artists to create environment and character
+                concepts.
+              </li>
+            </ul>
+            <p>
+              <strong>Key Technologies:</strong> Unity 3D (C#), Blender (3D
+              Modeling), FMOD (Audio Design)
+            </p>
+            <p>
+              <strong>Outcome:</strong> The project allowed me to refine my
+              skills in level design, game mechanics, and storytelling. It
+              helped me understand the challenges of building an immersive,
+              open-world RPG.
             </p>
           </div>
         </div>

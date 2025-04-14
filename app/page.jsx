@@ -150,14 +150,46 @@ export default function Home() {
             />
           </div>
           <div className="about-me-text">
-            <h2>About Me</h2>
+            <h2>Over mij</h2>
             <p>
-              Hello, I'm Marijn Meeuwesen, a passionate UX Designer with a love
-              for creating intuitive and engaging digital experiences. I
-              specialize in user research, interface design, and creating
-              seamless user flows. I believe in combining creativity with
-              usability to design products that people love to use.
+              Ik ben Marijn Meeuwesen, een gepassioneerde Game Designer met een
+              focus op gameplay, storytelling en gebruikerservaring. Ik geloof
+              dat games meer zijn dan entertainment — ze zijn een krachtig
+              middel om verhalen te vertellen en emoties over te brengen.
             </p>
+            <p>
+              Met ervaring in leveldesign, mechanics en visueel ontwerp werk ik
+              graag aan projecten waarin creativiteit en gebruiksvriendelijkheid
+              samenkomen. Mijn doel is om spelervaringen te maken die mensen
+              raken en bijblijven.
+            </p>
+
+            <div className="social-links mt-6 flex gap-4">
+              <a
+                href="https://www.linkedin.com/in/marijnmeeuwesen"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#0a66c2] hover:underline"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/marijnmeeuwesen"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#171717] hover:underline"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://twitter.com/marijnmeeuwesen"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#1DA1F2] hover:underline"
+              >
+                Twitter
+              </a>
+            </div>
           </div>
         </div>
       </section>

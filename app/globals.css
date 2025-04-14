@@ -330,3 +330,34 @@ body {
   box-shadow: none;
   /* Disable hover shadow effect */
 }
+@keyframes fadeSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down {
+  animation: fadeSlideDown 1s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: fadeSlideUp 1s ease-out forwards;
+}

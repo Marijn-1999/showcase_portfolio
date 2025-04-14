@@ -26,13 +26,18 @@ export default function Home() {
 
   return (
     <main className="bento-container homepage">
-      <div className="name-title-container">
+      <div className="name-title-container animate-slide-down">
         <h1 className="name">Marijn Meeuwesen</h1>
         <span className="portfolio">Showcase portfolio - Game design</span>
       </div>
+
       <div className="horizontal-line"></div>
 
-      <div className={`bento-grid ${fadeProjects ? "fade-out" : ""}`}>
+      <div
+        className={`bento-grid ${
+          fadeProjects ? "fade-out" : ""
+        } animate-slide-up`}
+      >
         {/* Project 1 */}
         <Link href="/project1" passHref legacyBehavior>
           <a className="bento-box box1" style={{ display: "block" }}>
@@ -142,7 +147,7 @@ export default function Home() {
         <div className="about-me-container">
           <div className="about-me-image">
             <Image
-              src="/globe.svg"
+              src="/profiel_foto.png"
               alt="Marijn Meeuwesen"
               width={300}
               height={300}

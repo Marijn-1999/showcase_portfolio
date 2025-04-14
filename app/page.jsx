@@ -28,8 +28,7 @@ export default function Home() {
     <main className="bento-container homepage">
       <div className="name-title-container">
         <h1 className="name">Marijn Meeuwesen</h1>
-        <span className="title">Game design</span>
-        <span className="portfolio">Showcase portfolio</span>
+        <span className="portfolio">Showcase portfolio - Game design</span>
       </div>
       <div className="horizontal-line"></div>
 

@@ -16,17 +16,17 @@ The goal of this portfolio is to present my work in an engaging, accessible way 
 Used Technologies
 Application technologies
 
--Next.js
--TypeScript / JavaScript
--Tailwind CSS
--HTML / JSX
+- Next.js
+- TypeScript / JavaScript
+- Tailwind CSS
+- HTML / JSX
 
 Create and build technologies
 
--VS Code
--Git & GitHub
--Node.js & NPM
--Vercel (for deployment)
+- VS Code
+- Git & GitHub
+- Node.js & NPM
+- Vercel (for deployment)
 
 Installation
 Prerequisites
@@ -39,16 +39,16 @@ Steps
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/your-portfolio.git
-cd your-portfolio
+- git clone https://github.com/your-username/your-portfolio.git
+  cd your-portfolio
 
 2. Install dependencies:
 
-npm install
+- npm install
 
 3. Run the development server:
 
-npm run dev
+- npm run dev
 
 4. Open your browser and go to:
 
@@ -61,11 +61,11 @@ Configuration
 
 Scripts
 
--Command Description
--npm run dev Run the development server
--npm run build Build the production version
--npm start Start the production server
--npm run lint Lint the code
+- Command Description
+- npm run dev Run the development server
+- npm run build Build the production version
+- npm start Start the production server
+- npm run lint Lint the code
 
 License
 This project is licensed under the MIT License.

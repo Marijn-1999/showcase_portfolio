@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Marijn Meeuwesen - Game Design Showcase Portfolio
 
-## Getting Started
+Overview
+This portfolio is a personal showcase created to present my work as a game designer. Built with Next.js, it highlights various projects that reflect my passion for storytelling, gameplay mechanics, and immersive user experiences. Visitors can explore a collection of featured projects, each representing unique aspects of my design journey.
 
-First, run the development server:
+Key Features
 
-```bash
+- Animated Interface: Smooth entrance animations and scroll interactions enhance the browsing experience.
+- Responsive Bento Grid Layout: Intuitive, visually organized layout that adapts to different screen sizes.
+- Project Showcase: Each project links to a dedicated detail page with visuals and context.
+- About Me Section: Offers background about me as a designer and links to social profiles.
+
+Purpose
+The goal of this portfolio is to present my work in an engaging, accessible way for potential collaborators, educators, or employers. It reflects both my technical ability and creative direction as a game designer.
+
+Used Technologies
+Application technologies
+
+-Next.js
+-TypeScript / JavaScript
+-Tailwind CSS
+-HTML / JSX
+
+Create and build technologies
+
+-VS Code
+-Git & GitHub
+-Node.js & NPM
+-Vercel (for deployment)
+
+Installation
+Prerequisites
+Make sure you have the following installed:
+
+- Node.js (LTS recommended)
+- npm
+
+Steps
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/your-portfolio.git
+cd your-portfolio
+
+2. Install dependencies:
+
+npm install
+
+3. Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and go to:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Configuration
 
-## Learn More
+- Environment variables can be placed in a .env.local file if needed.
+- For custom settings, update next.config.js.
 
-To learn more about Next.js, take a look at the following resources:
+Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-Command Description
+-npm run dev Run the development server
+-npm run build Build the production version
+-npm start Start the production server
+-npm run lint Lint the code
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+License
+This project is licensed under the MIT License.

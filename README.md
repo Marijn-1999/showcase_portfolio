@@ -1,6 +1,7 @@
 Marijn Meeuwesen - Game Design Showcase Portfolio
 
 Overview
+
 This portfolio is a personal showcase created to present my work as a game designer. Built with Next.js, it highlights various projects that reflect my passion for storytelling, gameplay mechanics, and immersive user experiences. Visitors can explore a collection of featured projects, each representing unique aspects of my design journey.
 
 Key Features
@@ -11,6 +12,7 @@ Key Features
 - About Me Section: Offers background about me as a designer and links to social profiles.
 
 Purpose
+
 The goal of this portfolio is to present my work in an engaging, accessible way for potential collaborators, educators, or employers. It reflects both my technical ability and creative direction as a game designer.
 
 Used Technologies
@@ -29,6 +31,7 @@ Create and build technologies
 - Vercel (for deployment)
 
 Installation
+
 Prerequisites
 Make sure you have the following installed:
 
@@ -68,4 +71,5 @@ Scripts
 - npm run lint Lint the code
 
 License
+
 This project is licensed under the MIT License.

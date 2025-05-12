@@ -19,14 +19,14 @@ Used Technologies
 Application technologies
 
 - Next.js
-- TypeScript / JavaScript
+- JavaScript
 - Tailwind CSS
 - HTML / JSX
 
 Create and build technologies
 
 - VS Code
-- Git & GitHub
+- GitHub
 - Node.js & NPM
 - Vercel (for deployment)
 
@@ -35,7 +35,7 @@ Installation
 Prerequisites
 Make sure you have the following installed:
 
-- Node.js (LTS recommended)
+- Node.js
 - npm
 
 Steps
